@@ -1,0 +1,64 @@
+/* flatLand! - code design things.
+ *
+ * SASS/COMPASS/CSS Document - /styles/ie.sass
+ *
+ * coded by leny @ flatLand!
+ *
+ * start: 2013-03-25
+ */
+
+@import "compass"
+@import "flatland"
+
+@import "fonts/mavenpro.sass"
+$MavenPro: "MavenPro", Helvetica, Verdana, Arial, sans-serif
+@import "fonts/angelina.sass"
+$Angelina: "Angelina", $MavenPro
+@import "fonts/socialico.sass"
+$Socialico: "Socialico"
+
+$laborColor: black
+$linkColor: #08c
+$linkHoveredColor: #069
+
+$codeColor: #d6ba01
+$designColor: #61a301
+$thingsColor: #58356f
+$contactColor: #8d8556
+
+@import "tablet.sass"
+@import "screen.sass"
+
+section
+    .content
+        h2
+            position: absolute
+            padding: 0 0.75em 0.5em !important
+            background: gray
+            color: white
+            text-transform: uppercase
+            font: bolder 1.5em/2em $MavenPro
+            +box-shadow( 0 0 10px rgba( black, 0.5 ) )
+            z-index: 85
+            top: -2em !important
+
+#code
+    div.content
+        h2
+            right: 2em
+            background: $codeColor
+#design
+    div.content
+        h2
+            left: 2em
+            background: $designColor
+#things
+    div.content
+        h2
+            right: 2em
+            background: $thingsColor
+#contact
+    div.content
+        h2
+            left: 2em
+            background: $contactColor

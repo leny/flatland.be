@@ -1,0 +1,12 @@
+/* TEAM */
+Dev&Design: Pierre-Antoine 'Leny' Delnatte
+Site: http://leny.me
+Twitter: @leny_be
+Location: Liège, Belgium.
+
+/* SITE */
+Last update: 2013/05/03
+Standards: html5 & css3
+Components: sass/compass, coffeescript/jquery
+Methods: in-browser design
+Software: Sublime Text & CodeKit on MacOSX
