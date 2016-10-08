@@ -50,6 +50,29 @@ module.exports = function( grunt ) {
                 },
             },
         },
+	// js
+	"browserify": {
+	    "options": {
+		"transform": [ "babelify" ],
+	    },
+	    "scripts": {
+		"files": {
+		    "assets/js/script.js": "src/js/main.js",
+		},
+	    },
+	},
+	"uglify": {
+	    "options": {
+		"mangle": {
+		    "except": [ "jQuery" ],
+		},
+	    },
+	    "scripts": {
+		"files": {
+		    "assets/js/script.min.js": "assets/js/script.js",
+		},
+	    },
+	},
         // assets
         "image": {
             "options": {
@@ -79,9 +102,13 @@ module.exports = function( grunt ) {
                 "tasks": [ "html" ],
             },
             "stylus": {
-                "files": "src/stylus/styles.styl",
+                "files": "src/stylus/**/*.styl",
                 "tasks": [ "css" ],
             },
+	    "js": {
+		"files": "src/js/**/*.js",
+		"tasks": [ "js" ],
+	    },
         },
     } );
 
@@ -91,7 +118,9 @@ module.exports = function( grunt ) {
 
     grunt.registerTask( "css", [ "stylus", "csso" ] );
 
-    grunt.registerTask( "default", [ "assets", "html", "css" ] );
+    grunt.registerTask( "js", [ "browserify", "uglify" ] );
+
+    grunt.registerTask( "default", [ "assets", "html", "css", "js" ] );
 
     grunt.registerTask( "work", [ "default", "watch" ] );
 
