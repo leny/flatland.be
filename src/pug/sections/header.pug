@@ -1,12 +1,21 @@
-header#main
-    h1
-        a( href="#intro" rel="internal" ) flatLand!
-    span#star
-    span#radial
-    nav
-        .left
-            a#nav-code( href="#code" rel="internal" ) code
-            a#nav-design( href="#design" rel="internal" ) design
-        .right
-            a#nav-things( href="#things" rel="internal" ) things
-            a#nav-contact( href="#contact" rel="internal" ) contact
+header.header
+    h1.header__title
+        .header__logo.logo
+            a.header__link( href="#intro" rel="internal" )
+                svg.logo__name( version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="-40.874 0 318.127 87.82" )
+                    title flatLand!
+                    include ../../svg/logo-no-root.svg
+                svg.logo__star( version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 25.416 24.169" )
+                    polygon( points="12.708,0 16.635,7.957 25.416,9.232 19.061,15.425 20.561,24.169 12.708,20.042 4.854,24.169 6.354,15.425 0,9.232 8.781,7.957" )/
+            svg.logo__radial( version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 595.28 595.28" )
+                include ../../svg/radial-no-root.svg
+    nav.header__nav.nav
+        .nav__left
+            a.nav__link( href="#code" rel="internal" ) code
+            = " "
+            a.nav__link( href="#design" rel="internal" ) design
+        = " "
+        .nav__right
+            a.nav__link( href="#things" rel="internal" ) things
+            = " "
+            a.nav__link( href="#contact" rel="internal" ) contact

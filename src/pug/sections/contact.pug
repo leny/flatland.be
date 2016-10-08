@@ -1,10 +1,12 @@
-section#contact
-    .content
-        h2 Contact
-        .box
+section.section#contact
+    .section__content
+        .section__box
+            h2.section__title Contact
             p.
                 Vous avez un projet web ?#[br/]
-                Besoin d'un #[em JS Ninja] pour rejoindre votre équipe de choc le temps d'un #[em killer-project] ?
+                Besoin d'un avis technique externe,
+                d'un coup de main pour la mise en place d'une équipe,
+                ou d'un #[em JS Ninja] pour rejoindre votre troupe de choc le temps d'un #[em killer-project] ?
 
             p.
                 Je suis indépendant et accepte toutes sortes de missions de courte et longue durée.
@@ -16,23 +18,23 @@ section#contact
 
             p.
                 Et si vous voulez me parler, m'engager, me faire un p'tit coucou,
-                vous pouvez me #[a#phone( href="tel:0032498323770" title="+32 (0) 498 32 37 70" ) téléphoner],
+                vous pouvez me #[a.phone-link( href="tel:0032498323770" title="+32 (0) 498 32 37 70" ) téléphoner],
                 ou m'#[a( href="mailto:info@flatland.be" ) envoyer un email].
 
             nav.socials
-                ul
-                    li
-                        a( rel="external" href="http://github.com/leny" title="github" id="github" data-icon="g" )
-                            span github
-                    li
-                        a( rel="external" href="http://www.facebook.com/pierreantoine.delnatte" title="facebook" id="facebook" data-icon="f" )
-                            span facebook
-                    li
-                        a( rel="external" href="http://twitter.com/#!/leny_be" title="twitter" id="twitter" data-icon="t" )
-                            span twitter
-                    li
-                        a( rel="external" href="http://dribbble.com/leny" title="dribbble" id="dribbble" data-icon="d" )
-                            span dribbble
-                    li
-                        a( rel="external" href="http://www.linkedin.com/pub/pierre-antoine-delnatte/a/78a/777" title="linked'in" id="linkedin" data-icon="i" )
-                            span linked'in
+                ul.socials__list
+                    li.socials__element
+                        a.socials__link( rel="external" href="http://github.com/leny" title="github" )
+                            include ../../svg/icons/github.svg
+                    li.socials__element
+                        a.socials__link( rel="external" href="http://www.facebook.com/pierreantoine.delnatte" title="facebook" )
+                            include ../../svg/icons/facebook.svg
+                    li.socials__element
+                        a.socials__link( rel="external" href="https://twitter.com/leny_be" title="twitter" )
+                            include ../../svg/icons/twitter.svg
+                    li.socials__element
+                        a.socials__link( rel="external" href="http://dribbble.com/leny" title="dribbble" )
+                            include ../../svg/icons/dribbble.svg
+                    li.socials__element
+                        a.socials__link( rel="external" href="https://be.linkedin.com/in/padelnatte" title="linkedin" )
+                            include ../../svg/icons/linkedin.svg

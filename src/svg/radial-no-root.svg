@@ -1,0 +1,122 @@
+<g>
+    <linearGradient id="radial-ray-one-gradient" gradientUnits="userSpaceOnUse" x1="298.479" y1="297.894" x2="298.479" y2="584.7983">
+        <stop offset="0" style="stop-color:#000000" />
+        <stop offset="1" style="stop-color:#000000;stop-opacity:0" />
+    </linearGradient>
+    <path id="radial-ray-one" fill="url(#radial-ray-one-gradient)" d="M298.525,297.894c0,0,22.856,286.904,22.427,286.904h-44.946C275.576,584.798,298.095,297.894,298.525,297.894z" />
+    <linearGradient id="radial-ray-two-gradient" gradientUnits="userSpaceOnUse" x1="298.4785" y1="297.895" x2="441.9302" y2="546.3606">
+        <stop offset="0" style="stop-color:#000000" />
+        <stop offset="1" style="stop-color:#000000;stop-opacity:0" />
+    </linearGradient>
+    <path id="radial-ray-two" fill="url(#radial-ray-two-gradient)" d="M298.52,297.872c0,0,163.246,237.035,162.873,237.252l-38.925,22.474C422.095,557.812,298.147,298.086,298.52,297.872z" />
+    <linearGradient id="radial-ray-three-gradient" gradientUnits="userSpaceOnUse" x1="298.4795" y1="297.895" x2="155.0278" y2="49.4295">
+        <stop offset="0" style="stop-color:#000000" />
+        <stop offset="1" style="stop-color:#000000;stop-opacity:0" />
+    </linearGradient>
+    <path id="radial-ray-three" fill="url(#radial-ray-three-gradient)" d="M298.438,297.918c0,0-163.246-237.038-162.873-237.251l38.925-22.474C174.863,37.979,298.811,297.702,298.438,297.918z" />
+    <linearGradient id="radial-ray-four-gradient" gradientUnits="userSpaceOnUse" x1="298.479" y1="297.8945" x2="546.9442" y2="154.4431">
+        <stop offset="0" style="stop-color:#000000" />
+        <stop offset="1" style="stop-color:#000000;stop-opacity:0" />
+    </linearGradient>
+    <path id="radial-ray-four" fill="url(#radial-ray-four-gradient)" d="M298.456,297.854c0,0,237.035-163.246,237.252-162.873l22.472,38.925C558.396,174.279,298.67,298.227,298.456,297.854z" />
+    <linearGradient id="radial-ray-five-gradient" gradientUnits="userSpaceOnUse" x1="298.479" y1="297.8955" x2="50.0136" y2="441.347">
+        <stop offset="0" style="stop-color:#000000" />
+        <stop offset="1" style="stop-color:#000000;stop-opacity:0" />
+    </linearGradient>
+    <path id="radial-ray-five" fill="url(#radial-ray-five-gradient)" d="M298.502,297.936c0,0-237.038,163.246-237.251,162.873l-22.474-38.925C38.562,421.511,298.288,297.563,298.502,297.936z" />
+    <linearGradient id="radial-ray-six-gradient" gradientUnits="userSpaceOnUse" x1="298.4795" y1="297.8945" x2="546.9442" y2="441.3457">
+        <stop offset="0" style="stop-color:#000000" />
+        <stop offset="1" style="stop-color:#000000;stop-opacity:0" />
+    </linearGradient>
+    <path id="radial-ray-six" fill="url(#radial-ray-six-gradient)" d="M298.502,297.854c0,0,259.894,123.656,259.678,124.029l-22.472,38.925C535.491,461.182,298.288,298.227,298.502,297.854z" />
+    <linearGradient id="radial-ray-seven-gradient" gradientUnits="userSpaceOnUse" x1="298.4795" y1="297.896" x2="50.013" y2="154.4439">
+        <stop offset="0" style="stop-color:#000000" />
+        <stop offset="1" style="stop-color:#000000;stop-opacity:0" />
+    </linearGradient>
+    <path id="radial-ray-seven" fill="url(#radial-ray-seven-gradient)" d="M298.456,297.936c0,0-259.894-123.656-259.68-124.029l22.474-38.925C61.464,134.609,298.67,297.563,298.456,297.936z" />
+    <linearGradient id="radial-ray-eight-gradient" gradientUnits="userSpaceOnUse" x1="298.4785" y1="297.8945" x2="441.9303" y2="49.4288">
+        <stop offset="0" style="stop-color:#000000" />
+        <stop offset="1" style="stop-color:#000000;stop-opacity:0" />
+    </linearGradient>
+    <path id="radial-ray-eight" fill="url(#radial-ray-eight-gradient)" d="M298.438,297.872c0,0,123.656-259.894,124.029-259.68l38.925,22.474C461.766,60.88,298.811,298.086,298.438,297.872z" />
+    <linearGradient id="radial-ray-nine-gradient" gradientUnits="userSpaceOnUse" x1="298.48" y1="297.8945" x2="155.0282" y2="546.3603">
+        <stop offset="0" style="stop-color:#000000" />
+        <stop offset="1" style="stop-color:#000000;stop-opacity:0" />
+    </linearGradient>
+    <path id="radial-ray-nine" fill="url(#radial-ray-nine-gradient)" d="M298.52,297.918c0,0-123.656,259.894-124.029,259.68l-38.925-22.474C135.193,534.907,298.147,297.704,298.52,297.918z" />
+    <linearGradient id="radial-ray-ten-gradient" gradientUnits="userSpaceOnUse" x1="298.478" y1="297.895" x2="585.3818" y2="297.895">
+        <stop offset="0" style="stop-color:#000000" />
+        <stop offset="1" style="stop-color:#000000;stop-opacity:0" />
+    </linearGradient>
+    <path id="radial-ray-ten" fill="url(#radial-ray-ten-gradient)" d="M298.478,297.849c0,0,286.904-22.857,286.904-22.427v44.946C585.382,320.798,298.478,298.279,298.478,297.849z" />
+    <linearGradient id="radial-ray-eleven-gradient" gradientUnits="userSpaceOnUse" x1="298.478" y1="297.895" x2="11.5762" y2="297.8951">
+        <stop offset="0" style="stop-color:#000000" />
+        <stop offset="1" style="stop-color:#000000;stop-opacity:0" />
+    </linearGradient>
+    <path id="radial-ray-eleven" fill="url(#radial-ray-eleven-gradient)" d="M298.478,297.941c0,0-286.902,22.856-286.902,22.427v-44.946C11.576,274.992,298.478,297.511,298.478,297.941z" />
+    <linearGradient id="radial-ray-twelve-gradient" gradientUnits="userSpaceOnUse" x1="298.479" y1="297.894" x2="298.479" y2="10.9922">
+        <stop offset="0" style="stop-color:#000000" />
+        <stop offset="1" style="stop-color:#000000;stop-opacity:0" />
+    </linearGradient>
+    <path id="radial-ray-twelve" fill="url(#radial-ray-twelve-gradient)" d="M298.433,297.894c0,0-22.857-286.902-22.427-286.902h44.946C321.382,10.992,298.863,297.894,298.433,297.894z" />
+    <linearGradient id="radial-ray-thirteen-gradient" gradientUnits="userSpaceOnUse" x1="298.479" y1="297.895" x2="501.3496" y2="500.7656">
+        <stop offset="0" style="stop-color:#000000" />
+        <stop offset="1" style="stop-color:#000000;stop-opacity:0" />
+    </linearGradient>
+    <path id="radial-ray-thirteen" fill="url(#radial-ray-thirteen-gradient)" d="M298.512,297.862c0,0,219.034,186.709,218.729,187.012l-31.782,31.782C485.155,516.962,298.207,298.166,298.512,297.862z" />
+    <linearGradient id="radial-ray-fourteen-gradient" gradientUnits="userSpaceOnUse" x1="298.479" y1="297.895" x2="95.6084" y2="95.0244">
+        <stop offset="0" style="stop-color:#000000" />
+        <stop offset="1" style="stop-color:#000000;stop-opacity:0" />
+    </linearGradient>
+    <path id="radial-ray-fourteen" fill="url(#radial-ray-fourteen-gradient)" d="M298.446,297.928c0,0-219.034-186.708-218.73-187.012L111.5,79.132C111.803,78.829,298.75,297.623,298.446,297.928z" />
+    <linearGradient id="radial-ray-fifteen-gradient" gradientUnits="userSpaceOnUse" x1="298.479" y1="297.895" x2="501.3499" y2="95.0241">
+        <stop offset="0" style="stop-color:#000000" />
+        <stop offset="1" style="stop-color:#000000;stop-opacity:0" />
+    </linearGradient>
+    <path id="radial-ray-fifteen" fill="url(#radial-ray-fifteen-gradient)" d="M298.446,297.862c0,0,186.709-219.034,187.012-218.73l31.782,31.784C517.546,111.219,298.75,298.166,298.446,297.862z" />
+    <linearGradient id="radial-ray-sixteen-gradient" gradientUnits="userSpaceOnUse" x1="298.479" y1="297.895" x2="95.6081" y2="500.766">
+        <stop offset="0" style="stop-color:#000000" />
+        <stop offset="1" style="stop-color:#000000;stop-opacity:0" />
+    </linearGradient>
+    <path id="radial-ray-sixteen" fill="url(#radial-ray-sixteen-gradient)" d="M298.512,297.928c0,0-186.708,219.034-187.012,218.729l-31.784-31.782C79.413,484.571,298.207,297.623,298.512,297.928z" />
+    <linearGradient id="radial-ray-seventeen-gradient" gradientUnits="userSpaceOnUse" x1="298.479" y1="297.8945" x2="575.6073" y2="372.1508">
+        <stop offset="0" style="stop-color:#000000" />
+        <stop offset="1" style="stop-color:#000000;stop-opacity:0" />
+    </linearGradient>
+    <path id="radial-ray-seventeen" fill="url(#radial-ray-seventeen-gradient)" d="M298.49,297.851c0,0,283.044,52.176,282.933,52.593l-11.634,43.415C569.678,394.274,298.379,298.267,298.49,297.851z" />
+    <linearGradient id="radial-ray-eighteen-gradient" gradientUnits="userSpaceOnUse" x1="298.4785" y1="297.895" x2="21.3521" y2="223.6393">
+        <stop offset="0" style="stop-color:#000000" />
+        <stop offset="1" style="stop-color:#000000;stop-opacity:0" />
+    </linearGradient>
+    <path id="radial-ray-eighteen" fill="url(#radial-ray-eighteen-gradient)" d="M298.466,297.939c0,0-283.042-52.176-282.931-52.592l11.634-43.416C27.28,201.515,298.579,297.523,298.466,297.939z" />
+    <linearGradient id="radial-ray-nineteen-gradient" gradientUnits="userSpaceOnUse" x1="298.4795" y1="297.8945" x2="372.7353" y2="20.7681">
+        <stop offset="0" style="stop-color:#000000" />
+        <stop offset="1" style="stop-color:#000000;stop-opacity:0" />
+    </linearGradient>
+    <path id="radial-ray-nineteen" fill="url(#radial-ray-nineteen-gradient)" d="M298.435,297.882c0,0,52.176-283.042,52.593-282.931l43.415,11.634C394.858,26.696,298.851,297.995,298.435,297.882z" />
+    <linearGradient id="radial-ray-twenty-gradient" gradientUnits="userSpaceOnUse" x1="298.481" y1="297.894" x2="224.2245" y2="575.0228">
+        <stop offset="0" style="stop-color:#000000" />
+        <stop offset="1" style="stop-color:#000000;stop-opacity:0" />
+    </linearGradient>
+    <path id="radial-ray-twenty" fill="url(#radial-ray-twenty-gradient)" d="M298.523,297.906c0,0-52.178,283.044-52.592,282.933l-43.416-11.634C202.099,569.094,298.107,297.795,298.523,297.906z" />
+    <linearGradient id="radial-ray-twentyone-gradient" gradientUnits="userSpaceOnUse" x1="298.4785" y1="297.8965" x2="575.6063" y2="223.6403">
+        <stop offset="0" style="stop-color:#000000" />
+        <stop offset="1" style="stop-color:#000000;stop-opacity:0" />
+    </linearGradient>
+    <path id="radial-ray-twentyone" fill="url(#radial-ray-twentyone-gradient)" d="M298.466,297.851c0,0,271.211-96.335,271.323-95.919l11.634,43.416C581.534,245.761,298.579,298.267,298.466,297.851z" />
+    <linearGradient id="radial-ray-twentytwo-gradient" gradientUnits="userSpaceOnUse" x1="298.4785" y1="297.896" x2="21.3521" y2="372.1517">
+        <stop offset="0" style="stop-color:#000000" />
+        <stop offset="1" style="stop-color:#000000;stop-opacity:0" />
+    </linearGradient>
+    <path id="radial-ray-twentytwo" fill="url(#radial-ray-twentytwo-gradient)" d="M298.49,297.939c0,0-271.21,96.335-271.321,95.919l-11.634-43.415C15.424,350.026,298.379,297.523,298.49,297.939z" />
+    <linearGradient id="radial-ray-twentythree-gradient" gradientUnits="userSpaceOnUse" x1="298.4795" y1="297.894" x2="224.2239" y2="20.7686">
+        <stop offset="0" style="stop-color:#000000" />
+        <stop offset="1" style="stop-color:#000000;stop-opacity:0" />
+    </linearGradient>
+    <path id="radial-ray-twentythree" fill="url(#radial-ray-twentythree-gradient)" d="M298.435,297.906c0,0-96.335-271.21-95.919-271.321l43.416-11.634C246.345,14.84,298.851,297.795,298.435,297.906z" />
+    <linearGradient id="radial-ray-twentyfour-gradient" gradientUnits="userSpaceOnUse" x1="298.4785" y1="297.8945" x2="372.7348" y2="575.0228">
+        <stop offset="0" style="stop-color:#000000" />
+        <stop offset="1" style="stop-color:#000000;stop-opacity:0" />
+    </linearGradient>
+    <path id="radial-ray-twentyfour" fill="url(#radial-ray-twentyfour-gradient)" d="M298.523,297.882c0,0,96.335,271.211,95.919,271.323l-43.415,11.634C350.61,580.95,298.107,297.995,298.523,297.882z" />
+</g>
