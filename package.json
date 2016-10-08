@@ -1,0 +1,24 @@
+{
+  "name": "flatland-website",
+  "description": "flatland.be website",
+  "version": "2016.10.08",
+  "private": true,
+  "homepage": "http://flatland.be",
+  "author": {
+    "name": "leny",
+    "email": "info@flatland.be"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leny/flatland.be.git"
+  },
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-contrib-pug": "^1.0.0",
+    "grunt-contrib-stylus": "^1.2.0",
+    "grunt-contrib-watch": "^1.0.0",
+    "grunt-csso": "^2.0.1",
+    "kouto-swiss": "^0.12.0",
+    "load-grunt-tasks": "^3.5.2"
+  }
+}
