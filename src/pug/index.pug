@@ -1,0 +1,42 @@
+doctype html
+html( lang="fr" )
+    head
+        meta( charset="UTF-8" )/
+        title flatLand! • code design things
+
+        link( rel="author" href="humans.txt" )/
+        meta( name="keywords"  content="flatland, flatland!, flatLand!, Belgium, Belgique, Liège, création site web, site web, webdesign, Pierre-Antoine Delnatte, Delnatte, Pierre-Antoine, INPRES, WIF 2006, Belgique, accessibilité, standards, conforme, xhtml, css, javascript, node.js, php, mysql, mongodb, redis, xml, xsl, rss, atom, cms, application, js, jquery, prototype, iphone, ipad, app, backbone, ember, angular, react, grunt, gulp, ES2015, underscore, freelance, indépendant" )/
+        meta( name="description"  content="flatLand! • code design things - design, web, applications, developpement" )/
+
+        meta( name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0" )/
+
+        link( rel="shortcut icon" type="image/png" href="favicon.png" )/
+
+        link( rel="stylesheet" href="assets/css/styles.min.css" )/
+
+        include partials/compat.pug
+
+    body
+        include sections/splash.pug
+
+        include sections/header.pug
+
+        include sections/intro.pug
+
+        hr/
+
+        include sections/code.pug
+
+        hr/
+
+        include sections/design.pug
+
+        hr/
+
+        include sections/things.pug
+
+        hr/
+
+        include sections/contact.pug
+
+        script( src="assets/js/script.min.js" async )
