@@ -26,7 +26,7 @@ module.exports = function( grunt ) {
                 },
             },
         },
-        // CSS
+        // css
         "stylus": {
             "options": {
                 "compress": false,
@@ -50,6 +50,28 @@ module.exports = function( grunt ) {
                 },
             },
         },
+        // assets
+        "image": {
+            "options": {
+                "pngquant": true,
+                "optipng": true,
+                "zopflipng": false, // TMP
+                "jpegRecompress": false,
+                "jpegoptim": true,
+                "mozjpeg": true,
+                "gifsicle": true,
+            },
+            "assets": {
+                "files": [
+                    {
+                        "expand": true,
+                        "cwd": "src/images/",
+                        "src": [ "**/*.{png,jpg,gif,svg}" ],
+                        "dest": "assets/images/",
+                    },
+                ],
+            },
+        },
         // watch
         "watch": {
             "pug": {
@@ -65,9 +87,11 @@ module.exports = function( grunt ) {
 
     grunt.registerTask( "html", [ "pug" ] );
 
+    grunt.registerTask( "assets", [ "image" ] );
+
     grunt.registerTask( "css", [ "stylus", "csso" ] );
 
-    grunt.registerTask( "default", [ "html", "css" ] );
+    grunt.registerTask( "default", [ "assets", "html", "css" ] );
 
     grunt.registerTask( "work", [ "default", "watch" ] );
 
