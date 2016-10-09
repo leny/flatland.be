@@ -30,6 +30,8 @@ module.exports = function( grunt ) {
             "options": {
                 "removeComments": true,
                 "collapseWhitespace": true,
+                "decodeEntities": true,
+                "collapseBooleanAttributes": true,
             },
             "page": {
                 "files": {
