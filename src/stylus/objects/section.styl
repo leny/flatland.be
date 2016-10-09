@@ -1,0 +1,23 @@
+/* leny/flatland.be
+ *
+ * /src/stylus/object/section.styl - Cosmetic-free styles for section
+ *
+ * coded by leny@flatLand!
+ * started at 09/10/2016
+ */
+
+.section
+    position relative
+    width 100%
+    margin 0 auto
+    z-index 10
+    &::before
+    &::after
+        content ""
+        display block
+        size 100% 7.5rem
+    &__content
+        position relative
+        width 100%
+    &__box
+        position relative
