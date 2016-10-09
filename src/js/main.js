@@ -8,8 +8,26 @@
 
 import $ from "jquery";
 
+import languageCycler from "./components/language-cycler";
+import { init as scrollObserverInit, scrollTo } from "./components/scroll-observer";
+import { init as navHandlerInit } from "./components/navigation-handler";
+
+let bIsMobile = !!navigator.userAgent.match( /Android|BlackBerry|iPhone|iPad|iPod|Opera Mini|IEMobile/i );
+
 $( () => {
 
-    console.log( "flatLand! 2016" );
+    $( `a[rel="external"]` ).attr( "target", "_new" );
 
+    languageCycler( $( ".section__quote" ) );
+
+    if ( bIsMobile ) {
+        setTimeout( () => window.scrollTo( 0, 1 ), 0 );
+
+        return;
+    }
+
+    navHandlerInit();
+    scrollObserverInit();
+
+    location.hash && scrollTo( location.hash );
 } );
