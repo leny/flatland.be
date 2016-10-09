@@ -1,0 +1,21 @@
+/* leny/flatland.be
+ *
+ * /src/stylus/components/socials.styl - Design component for socials links
+ *
+ * coded by leny@flatLand!
+ * started at 09/10/2016
+ */
+
+.socials
+    text-align center
+    &__element
+        text-align center
+        a
+            border-bottom 0
+    &__icon
+        path
+            fill contactColor
+            transition fill .25s ease-in-out
+        &:hover
+            path
+                fill darken( contactColor, 15% )

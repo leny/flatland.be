@@ -21,3 +21,29 @@
         width 100%
     &__box
         position relative
+        z-index 30
+    &__title
+        absolute -3.2rem auto auto
+        size auto 3.2rem
+        margin 0
+        z-index 20
+    &__quote
+        position relative
+        margin 0 0 0 2rem
+        &::before
+            content "“"
+            display block
+            absolute .5rem auto auto -2.4rem
+    &__quote-languages
+        display inline-block
+        overflow hidden
+        span
+            display inline-block
+    &--code
+    &--things
+        .section__title
+            right 2rem
+    &--design
+    &--contact
+        .section__title
+            left 2rem

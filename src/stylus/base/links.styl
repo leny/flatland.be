@@ -6,11 +6,16 @@
  * started at 09/10/2016
  */
 
-a
-    color linkColor
-    text-decoration none
-    transition color .25s ease-in-out
-    &:hover
-    &:visited
-    &:active
-        color linkHoveredColor
+links( link = linkColor, hover = linkHoverColor )
+    a
+        border-bottom .1rem dotted link
+        color link
+        text-decoration none
+        transition color .25s ease-in-out
+        &:visited
+            color link
+        &:hover
+        &:active
+            color hover
+
+links()

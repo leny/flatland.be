@@ -13,3 +13,11 @@ p
         font-weight 800
     em
         font-weight 600
+        font-style normal
+    abbr
+        text-decoration none
+        cursor help
+        border-bottom .1rem dotted linkColor
+        transition border-color .25s ease-in-out
+        &:hover
+            border-bottom-color lighten( linkColor, 15% )

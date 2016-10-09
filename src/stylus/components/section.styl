@@ -6,6 +6,32 @@
  * started at 09/10/2016
  */
 
+section-background( name )
+    &::before
+        background transparent url( s( "../images/%s-mobile.jpg", name ) ) top center no-repeat
+    &::after
+        background transparent url( s( "../images/%s-mobile.jpg", name ) ) bottom center no-repeat
+    +retina-query( all, 1.3 )
+        &::before
+            background transparent url( s( "../images/%s-mobile@2x.jpg", name ) ) top center no-repeat
+            background-size auto 15rem
+        &::after
+            background transparent url( s( "../images/%s-mobile@2x.jpg", name ) ) bottom center no-repeat
+            background-size auto 15rem
+
+
+section-details( name, mainColor )
+    section-background( name )
+    links( mainColor, darken( mainColor, 15% ) )
+    .section__title
+        background mainColor
+    strong, em
+        color mainColor
+    abbr
+        border-bottom-color mainColor
+        &:hover
+            border-bottom-color lighten( mainColor, 15% )
+
 .section
     &::before
         background yellow // TODO: tmp
@@ -15,8 +41,31 @@
         padding 1.4rem 1.4rem .7rem
         background white
         box-shadow 0 0 1rem rgba( black, .5 )
-    &--intro
+    &__title
+        padding 0 1.4rem
+        background gray
+        box-shadow 0 0 1rem rgba( black, .5 )
+        font 800 1.5rem/3.2rem MavenPro
+        color white
+        text-transform uppercase
+    &__quote
+        padding 1rem 0
+        font normal 1.2rem/1 MavenPro
+        color #666
         &::before
-            background transparent url( "../images/intro-mobile.jpg" ) top center no-repeat
-        &::after
-            background transparent url( "../images/intro-mobile.jpg" ) bottom center no-repeat
+            font 800 4.2rem/1 MavenPro
+            color #bbb
+    &__quote-languages
+        font-weight bold
+        text-align center
+        vertical-align bottom
+    &--intro
+        section-background( intro )
+    &--code
+        section-details( code, codeColor )
+    &--design
+        section-details( design, designColor )
+    &--things
+        section-details( things, thingsColor )
+    &--contact
+        section-details( contact, contactColor )
