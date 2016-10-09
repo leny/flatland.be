@@ -1,7 +1,7 @@
 {
   "name": "flatland-website",
   "description": "flatland.be website",
-  "version": "2016.10.08",
+  "version": "2016.10.09",
   "private": true,
   "homepage": "http://flatland.be",
   "author": {
