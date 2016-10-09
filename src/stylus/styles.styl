@@ -38,6 +38,7 @@ box-sizing-reset()
 
 // 6. Components - designed components
 @import "components/logo"
+@import "components/splash"
 @import "components/header"
 @import "components/nav"
 @import "components/separator"
@@ -46,3 +47,8 @@ box-sizing-reset()
 @import "components/footer"
 
 // 7. Trumps - helpers & overrides
++media-query( all, min-width 1025px )
+    .splash
+        display none
+    .header
+        display block

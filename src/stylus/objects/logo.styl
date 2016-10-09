@@ -12,15 +12,36 @@
         position relative
         size 20rem 6rem
         z-index 120
+        transform-style preserve-3d
     &__star
         absolute 6.7rem auto auto 50%
         size 1.6rem
         z-index 105
         transform translate( -50%, -60% )
+        transform-style preserve-3d
     &__radial
-        absolute -22.5rem auto auto 50%
+        absolute -23.5rem auto auto 50%
         size 60rem
         z-index 95
         opacity .05
         transform translateX( -50% )
+        transform-style preserve-3d
         pointer-events none
+    &__code
+    &__design
+    &__things
+        display inline-block
+    &__code
+        absolute 50% 50% auto auto
+        transform translate( -1.8rem, 3.2rem )
+        transform-style preserve-3d
+    &__design
+        absolute 50% auto auto 50%
+        transform translate( 1.8rem, 3.2rem )
+        transform-style preserve-3d
+    &__things
+        absolute 50% auto auto 50%
+        transform translate( -38%, 5.2rem )
+        transform-style preserve-3d
+        &::after
+            content "."

@@ -23,6 +23,10 @@ section-tablet-background( name, retina = "" )
     background transparent url( s( "../images/%s-tablet%s.jpg", name, unquote( retina ) ) ) center no-repeat
     background-size cover
 
+section-desktop-background( name )
+    background transparent url( s( "../images/%s-big.jpg", name ) ) center no-repeat fixed
+    background-size cover
+
 section-details( name, mainColor )
     section-mobile-background( name )
     links( mainColor, darken( mainColor, 15% ) )
@@ -54,7 +58,7 @@ section-details( name, mainColor )
     &__quote
         padding 1rem 0
         font normal 1.2rem/1 MavenPro
-        color #666
+        color #888
         &::before
             font 800 4.2rem/1 MavenPro
             color #bbb
@@ -106,3 +110,43 @@ section-details( name, mainColor )
                 section-tablet-background( things, "@2X" )
             &--contact
                 section-tablet-background( contact, "@2X" )
+
++media-query( all, min-width 1025px )
+    .section
+        padding 0
+        &__title
+            padding 0 .75rem 1rem
+        &__box
+            padding 2.1rem 2.1rem 1.4rem
+        &--intro
+            section-desktop-background( intro )
+            .section__content
+                absolute auto 10% 45% auto
+        &--code
+            section-desktop-background( code )
+            .section__content
+                absolute auto auto 40% 10%
+            .section__title
+                absolute 4rem -4.2rem auto auto
+                transform rotate( -90deg )
+        &--design
+            section-desktop-background( design )
+            .section__content
+                absolute auto auto 35% 25%
+            .section__title
+                absolute 4rem auto auto -5rem
+                transform rotate( -90deg )
+        &--things
+            section-desktop-background( things )
+            .section__content
+                absolute auto 10% 40% auto
+            .section__title
+                absolute 4rem -5rem auto auto
+                transform rotate( -90deg )
+        &--contact
+            section-desktop-background( contact )
+            .section__content
+                absolute auto auto 25% 10%
+            .section__title
+                absolute 4rem auto auto -5.7rem
+                transform rotate( -90deg )

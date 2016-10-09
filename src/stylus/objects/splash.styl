@@ -8,3 +8,22 @@
 
 .splash
     display none
+
++media-query( all, min-width 1025px )
+    .splash
+        display block
+        height 100%
+        z-index 95
+        &__logo
+            absolute -6.25rem 0 0 0
+            size 20rem 6rem
+            margin auto
+        &__message
+            absolute auto auto 16rem 8rem
+            size 32rem 8rem
+        &__arrow
+            absolute auto auto -13.5rem 50%
+            size 12rem
+            transform translateX( -50% ) rotate( -2deg )
+        &__message-text
+            transform rotate( -5deg )

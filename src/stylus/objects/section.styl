@@ -29,7 +29,7 @@
         z-index 20
     &__quote
         position relative
-        margin 0 0 0 2rem
+        margin 0 0 0 4rem
         &::before
             content "“"
             display block
@@ -38,7 +38,9 @@
         display inline-block
         overflow hidden
         span
-            display inline-block
+            display none
+            &:first-child
+                display inline-block
     &--code
     &--things
         .section__title
@@ -56,3 +58,9 @@
         &__content
             width 45rem
             margin 0 auto
+
++media-query( all, min-width 1025px )
+    .section
+        position relative
+        size 100%
+        overflow hidden

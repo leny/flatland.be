@@ -1,0 +1,107 @@
+/* leny/flatland.be
+ *
+ * /src/stylus/object/splash.styl - Design components for splash
+ *
+ * coded by leny@flatLand!
+ * started at 09/10/2016
+ */
+
+@keyframes splash-radial-animation
+    0%
+        transform translateX( -50% ) scale( 0 )
+    25%
+        transform translateX( -50% ) scale( 0 )
+    50%
+        transform translateX( -50% ) scale( 1 )
+
+@keyframes splash-name-animation
+    0%
+        transform translateY( 1.25rem )
+        opacity 0
+    50%
+        transform translateY( 1.25rem )
+        opacity 0
+    52%
+        opacity 0
+    57%
+        transform translateY( 0 )
+        opacity 1
+
+@keyframes splash-code-animation
+    0%
+        transform translate( 0, 3.2rem )
+        opacity 0
+    60%
+        transform translate( 0, 3.2rem )
+        opacity 0
+    65%
+        opacity 0
+    68%
+        transform translate( -1.8rem, 3.2rem )
+        opacity 1
+
+@keyframes splash-design-animation
+    0%
+        transform translate( 0, 3.2rem )
+        opacity 0
+    60%
+        transform translate( 0, 3.2rem )
+        opacity 0
+    65%
+        opacity 0
+    68%
+        transform translate( 1.8rem, 3.2rem )
+        opacity 1
+
+@keyframes splash-things-animation
+    0%
+        transform translate( -38%, 3.6rem )
+        opacity 0
+    60%
+        transform translate( -38%, 3.6rem )
+        opacity 0
+    65%
+        opacity 0
+    68%
+        transform translate( -38%, 5.2rem )
+        opacity 1
+
+@keyframes splash-things-dot-animation
+    0%
+        opacity 0
+    90%
+        opacity 0
+    100%
+        opacity 1
+
+@keyframes splash-message-animation
+    0%
+        opacity 0
+    90%
+        opacity 0
+    100%
+        opacity 1
+
++media-query( all, min-width 1025px )
+    .splash
+        background white
+        box-shadow 0 0 1rem rgba( black, .5 )
+        &__message
+            animation splash-message-animation 3s linear 0s 1
+        &__message-text
+        &__arrow
+            g
+                fill #999
+        &__logo
+            .logo__radial
+                animation splash-radial-animation 2s linear 0s 1
+            .logo__name
+                animation splash-name-animation 2s linear 0s 1
+            .logo__code
+                animation splash-code-animation 2s linear 0s 1
+            .logo__design
+                animation splash-design-animation 2s linear 0s 1
+            .logo__things
+                animation splash-things-animation 2s linear 0s 1
+                &::after
+                    animation splash-things-dot-animation 2s linear 0s 1
