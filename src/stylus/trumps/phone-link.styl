@@ -1,0 +1,37 @@
+/* leny/flatland.be
+ *
+ * /src/stylus/trumps/phone-link.styl - Phone link hover
+ *
+ * coded by leny@flatLand!
+ * started at 09/10/2016
+ */
+
++media-query( all, min-width 1025px )
+    .phone-link
+        position relative
+        &::before
+        &::after
+            content none
+            transform translateX( -50% )
+            opacity 0
+            transition opacity .25s ease-in-out
+        &::before
+            absolute -4rem auto auto 50%
+            size 20rem 3rem
+            background rgba( black, .85 )
+            border-radius .75rem
+            font 600 1.6rem/3rem MavenPro
+            color white
+            text-align center
+        &::after
+            absolute -1rem auto auto 50%
+            size 0
+            border 1rem solid transparent
+            border-top 1rem solid rgba( black, .85 )
+        &:hover
+            &::before
+                content attr(data-phone)
+                opacity 1
+            &::after
+                content ""
+                opacity 1
