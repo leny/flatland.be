@@ -1,0 +1,22 @@
+/* leny/flatland.be
+ *
+ * /src/stylus/components/section.styl - Design component for section
+ *
+ * coded by leny@flatLand!
+ * started at 09/10/2016
+ */
+
+.section
+    &::before
+        background yellow // TODO: tmp
+    &::after
+        background blue // TODO: tmp
+    &__box
+        padding 1.4rem 1.4rem .7rem
+        background white
+        box-shadow 0 0 1rem rgba( black, .5 )
+    &--intro
+        &::before
+            background transparent url( "../images/intro-mobile.jpg" ) top center no-repeat
+        &::after
+            background transparent url( "../images/intro-mobile.jpg" ) bottom center no-repeat
