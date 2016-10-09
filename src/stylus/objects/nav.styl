@@ -11,3 +11,21 @@
     &__left
     &__right
         display none
+
++media-query( all, min-width 481px )
+    .nav
+        &__left
+        &__right
+            display block
+            absolute 0 auto auto
+            size 40% 7.5rem
+            line-height 7.5rem
+        &__left
+            right 50%
+            margin-right 20%
+        &__right
+            left 50%
+            margin-left 20%
+        &__link
+            display inline-block
+            width 35%

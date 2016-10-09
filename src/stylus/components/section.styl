@@ -6,7 +6,7 @@
  * started at 09/10/2016
  */
 
-section-background( name )
+section-mobile-background( name )
     &::before
         background transparent url( s( "../images/%s-mobile.jpg", name ) ) top center no-repeat
     &::after
@@ -19,9 +19,12 @@ section-background( name )
             background transparent url( s( "../images/%s-mobile@2x.jpg", name ) ) bottom center no-repeat
             background-size auto 15rem
 
+section-tablet-background( name, retina = "" )
+    background transparent url( s( "../images/%s-tablet%s.jpg", name, unquote( retina ) ) ) center no-repeat
+    background-size cover
 
 section-details( name, mainColor )
-    section-background( name )
+    section-mobile-background( name )
     links( mainColor, darken( mainColor, 15% ) )
     .section__title
         background mainColor
@@ -60,7 +63,7 @@ section-details( name, mainColor )
         text-align center
         vertical-align bottom
     &--intro
-        section-background( intro )
+        section-mobile-background( intro )
     &--code
         section-details( code, codeColor )
     &--design
@@ -69,3 +72,37 @@ section-details( name, mainColor )
         section-details( things, thingsColor )
     &--contact
         section-details( contact, contactColor )
+
++media-query( all, min-width 481px )
+    .section
+        padding 10rem 0
+        &--intro
+            section-tablet-background( intro )
+        &--code
+            section-tablet-background( code )
+            .section__content
+                margin-right 5%
+        &--design
+            section-tablet-background( design )
+            .section__content
+                margin-left 5%
+        &--things
+            section-tablet-background( things )
+            .section__content
+                margin-right 3%
+        &--contact
+            section-tablet-background( contact )
+            .section__content
+                margin-left 5%
+    +retina-query( all, 1.3 )
+        .section
+            &--intro
+                section-tablet-background( intro, "@2X" )
+            &--code
+                section-tablet-background( code, "@2X" )
+            &--design
+                section-tablet-background( design, "@2X" )
+            &--things
+                section-tablet-background( things, "@2X" )
+            &--contact
+                section-tablet-background( contact, "@2X" )

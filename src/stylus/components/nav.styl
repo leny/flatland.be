@@ -9,3 +9,26 @@
 .nav
     background white
     box-shadow 0 0 1rem rgba( black, .5 )
+
++media-query( all, min-width 481px )
+    .nav
+        &__left
+            text-align right
+        &__right
+            text-align left
+        &__link
+            padding 0 0 .25rem
+            border-bottom 0
+            font 800 1.5rem MavenPro
+            color laborColor
+            text-decoration none
+            text-transform uppercase
+            transition color .5s ease-in-out
+            &--code:hover
+                color codeColor
+            &--design:hover
+                color designColor
+            &--things:hover
+                color thingsColor
+            &--contact:hover
+                color contactColor

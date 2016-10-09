@@ -47,3 +47,12 @@
     &--contact
         .section__title
             left 2rem
+
++media-query( all, min-width 481px )
+    .section
+        &::before
+        &::after
+            content none
+        &__content
+            width 45rem
+            margin 0 auto
