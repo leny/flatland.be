@@ -26,6 +26,17 @@ module.exports = function( grunt ) {
                 },
             },
         },
+        "htmlmin": {
+            "options": {
+                "removeComments": true,
+                "collapseWhitespace": true,
+            },
+            "page": {
+                "files": {
+                    "index.html": "index.html",
+                },
+            }
+        },
         // css
         "stylus": {
             "options": {
@@ -112,7 +123,7 @@ module.exports = function( grunt ) {
         },
     } );
 
-    grunt.registerTask( "html", [ "pug" ] );
+    grunt.registerTask( "html", [ "pug", "htmlmin" ] );
 
     grunt.registerTask( "assets", [ "image" ] );
 
