@@ -24,11 +24,19 @@
             text-decoration none
             text-transform uppercase
             transition color .5s ease-in-out
-            &--code:hover
-                color codeColor
-            &--design:hover
-                color designColor
-            &--things:hover
-                color thingsColor
-            &--contact:hover
-                color contactColor
+            &--code
+                &:hover
+                &.nav__link--active
+                    color codeColor
+            &--design
+                &:hover
+                &.nav__link--active
+                    color designColor
+            &--things
+                &:hover
+                &.nav__link--active
+                    color thingsColor
+            &--contact
+                &:hover
+                &.nav__link--active
+                    color contactColor
