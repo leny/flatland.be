@@ -227,6 +227,8 @@ html {
   background: #fff;
   font: normal 62.5%/1.5 "MavenPro", "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: #000;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-size-adjust: 100%;
 }
 body {
   position: relative;
@@ -336,9 +338,9 @@ a:active {
   right: 50%;
   bottom: auto;
   left: auto;
-  -webkit-transform: translate(-1.8rem, 3.2rem);
-  -ms-transform: translate(-1.8rem, 3.2rem);
-  transform: translate(-1.8rem, 3.2rem);
+  -webkit-transform: translate(-1.8rem, 3rem);
+  -ms-transform: translate(-1.8rem, 3rem);
+  transform: translate(-1.8rem, 3rem);
   -webkit-transform-style: preserve-3d;
   transform-style: preserve-3d;
 }
@@ -348,9 +350,9 @@ a:active {
   right: auto;
   bottom: auto;
   left: 50%;
-  -webkit-transform: translate(1.8rem, 3.2rem);
-  -ms-transform: translate(1.8rem, 3.2rem);
-  transform: translate(1.8rem, 3.2rem);
+  -webkit-transform: translate(1.8rem, 3rem);
+  -ms-transform: translate(1.8rem, 3rem);
+  transform: translate(1.8rem, 3rem);
   -webkit-transform-style: preserve-3d;
   transform-style: preserve-3d;
 }
@@ -887,17 +889,17 @@ a:active {
 }
 @-moz-keyframes splash-code-animation {
   0% {
-    -webkit-transform: translate(0, 3.2rem);
-    -ms-transform: translate(0, 3.2rem);
-    transform: translate(0, 3.2rem);
+    -webkit-transform: translate(0, 3rem);
+    -ms-transform: translate(0, 3rem);
+    transform: translate(0, 3rem);
     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
     filter: alpha(opacity=0);
     opacity: 0;
   }
   60% {
-    -webkit-transform: translate(0, 3.2rem);
-    -ms-transform: translate(0, 3.2rem);
-    transform: translate(0, 3.2rem);
+    -webkit-transform: translate(0, 3rem);
+    -ms-transform: translate(0, 3rem);
+    transform: translate(0, 3rem);
     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
     filter: alpha(opacity=0);
     opacity: 0;
@@ -908,9 +910,9 @@ a:active {
     opacity: 0;
   }
   68% {
-    -webkit-transform: translate(-1.8rem, 3.2rem);
-    -ms-transform: translate(-1.8rem, 3.2rem);
-    transform: translate(-1.8rem, 3.2rem);
+    -webkit-transform: translate(-1.8rem, 3rem);
+    -ms-transform: translate(-1.8rem, 3rem);
+    transform: translate(-1.8rem, 3rem);
     -ms-filter: none;
     filter: none;
     opacity: 1;
@@ -918,17 +920,17 @@ a:active {
 }
 @-webkit-keyframes splash-code-animation {
   0% {
-    -webkit-transform: translate(0, 3.2rem);
-    -ms-transform: translate(0, 3.2rem);
-    transform: translate(0, 3.2rem);
+    -webkit-transform: translate(0, 3rem);
+    -ms-transform: translate(0, 3rem);
+    transform: translate(0, 3rem);
     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
     filter: alpha(opacity=0);
     opacity: 0;
   }
   60% {
-    -webkit-transform: translate(0, 3.2rem);
-    -ms-transform: translate(0, 3.2rem);
-    transform: translate(0, 3.2rem);
+    -webkit-transform: translate(0, 3rem);
+    -ms-transform: translate(0, 3rem);
+    transform: translate(0, 3rem);
     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
     filter: alpha(opacity=0);
     opacity: 0;
@@ -939,9 +941,9 @@ a:active {
     opacity: 0;
   }
   68% {
-    -webkit-transform: translate(-1.8rem, 3.2rem);
-    -ms-transform: translate(-1.8rem, 3.2rem);
-    transform: translate(-1.8rem, 3.2rem);
+    -webkit-transform: translate(-1.8rem, 3rem);
+    -ms-transform: translate(-1.8rem, 3rem);
+    transform: translate(-1.8rem, 3rem);
     -ms-filter: none;
     filter: none;
     opacity: 1;
@@ -949,17 +951,17 @@ a:active {
 }
 @-o-keyframes splash-code-animation {
   0% {
-    -webkit-transform: translate(0, 3.2rem);
-    -ms-transform: translate(0, 3.2rem);
-    transform: translate(0, 3.2rem);
+    -webkit-transform: translate(0, 3rem);
+    -ms-transform: translate(0, 3rem);
+    transform: translate(0, 3rem);
     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
     filter: alpha(opacity=0);
     opacity: 0;
   }
   60% {
-    -webkit-transform: translate(0, 3.2rem);
-    -ms-transform: translate(0, 3.2rem);
-    transform: translate(0, 3.2rem);
+    -webkit-transform: translate(0, 3rem);
+    -ms-transform: translate(0, 3rem);
+    transform: translate(0, 3rem);
     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
     filter: alpha(opacity=0);
     opacity: 0;
@@ -970,9 +972,9 @@ a:active {
     opacity: 0;
   }
   68% {
-    -webkit-transform: translate(-1.8rem, 3.2rem);
-    -ms-transform: translate(-1.8rem, 3.2rem);
-    transform: translate(-1.8rem, 3.2rem);
+    -webkit-transform: translate(-1.8rem, 3rem);
+    -ms-transform: translate(-1.8rem, 3rem);
+    transform: translate(-1.8rem, 3rem);
     -ms-filter: none;
     filter: none;
     opacity: 1;
@@ -980,17 +982,17 @@ a:active {
 }
 @keyframes splash-code-animation {
   0% {
-    -webkit-transform: translate(0, 3.2rem);
-    -ms-transform: translate(0, 3.2rem);
-    transform: translate(0, 3.2rem);
+    -webkit-transform: translate(0, 3rem);
+    -ms-transform: translate(0, 3rem);
+    transform: translate(0, 3rem);
     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
     filter: alpha(opacity=0);
     opacity: 0;
   }
   60% {
-    -webkit-transform: translate(0, 3.2rem);
-    -ms-transform: translate(0, 3.2rem);
-    transform: translate(0, 3.2rem);
+    -webkit-transform: translate(0, 3rem);
+    -ms-transform: translate(0, 3rem);
+    transform: translate(0, 3rem);
     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
     filter: alpha(opacity=0);
     opacity: 0;
@@ -1001,9 +1003,9 @@ a:active {
     opacity: 0;
   }
   68% {
-    -webkit-transform: translate(-1.8rem, 3.2rem);
-    -ms-transform: translate(-1.8rem, 3.2rem);
-    transform: translate(-1.8rem, 3.2rem);
+    -webkit-transform: translate(-1.8rem, 3rem);
+    -ms-transform: translate(-1.8rem, 3rem);
+    transform: translate(-1.8rem, 3rem);
     -ms-filter: none;
     filter: none;
     opacity: 1;
@@ -1011,17 +1013,17 @@ a:active {
 }
 @-moz-keyframes splash-design-animation {
   0% {
-    -webkit-transform: translate(0, 3.2rem);
-    -ms-transform: translate(0, 3.2rem);
-    transform: translate(0, 3.2rem);
+    -webkit-transform: translate(0, 3rem);
+    -ms-transform: translate(0, 3rem);
+    transform: translate(0, 3rem);
     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
     filter: alpha(opacity=0);
     opacity: 0;
   }
   60% {
-    -webkit-transform: translate(0, 3.2rem);
-    -ms-transform: translate(0, 3.2rem);
-    transform: translate(0, 3.2rem);
+    -webkit-transform: translate(0, 3rem);
+    -ms-transform: translate(0, 3rem);
+    transform: translate(0, 3rem);
     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
     filter: alpha(opacity=0);
     opacity: 0;
@@ -1032,9 +1034,9 @@ a:active {
     opacity: 0;
   }
   68% {
-    -webkit-transform: translate(1.8rem, 3.2rem);
-    -ms-transform: translate(1.8rem, 3.2rem);
-    transform: translate(1.8rem, 3.2rem);
+    -webkit-transform: translate(1.8rem, 3rem);
+    -ms-transform: translate(1.8rem, 3rem);
+    transform: translate(1.8rem, 3rem);
     -ms-filter: none;
     filter: none;
     opacity: 1;
@@ -1042,17 +1044,17 @@ a:active {
 }
 @-webkit-keyframes splash-design-animation {
   0% {
-    -webkit-transform: translate(0, 3.2rem);
-    -ms-transform: translate(0, 3.2rem);
-    transform: translate(0, 3.2rem);
+    -webkit-transform: translate(0, 3rem);
+    -ms-transform: translate(0, 3rem);
+    transform: translate(0, 3rem);
     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
     filter: alpha(opacity=0);
     opacity: 0;
   }
   60% {
-    -webkit-transform: translate(0, 3.2rem);
-    -ms-transform: translate(0, 3.2rem);
-    transform: translate(0, 3.2rem);
+    -webkit-transform: translate(0, 3rem);
+    -ms-transform: translate(0, 3rem);
+    transform: translate(0, 3rem);
     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
     filter: alpha(opacity=0);
     opacity: 0;
@@ -1063,9 +1065,9 @@ a:active {
     opacity: 0;
   }
   68% {
-    -webkit-transform: translate(1.8rem, 3.2rem);
-    -ms-transform: translate(1.8rem, 3.2rem);
-    transform: translate(1.8rem, 3.2rem);
+    -webkit-transform: translate(1.8rem, 3rem);
+    -ms-transform: translate(1.8rem, 3rem);
+    transform: translate(1.8rem, 3rem);
     -ms-filter: none;
     filter: none;
     opacity: 1;
@@ -1073,17 +1075,17 @@ a:active {
 }
 @-o-keyframes splash-design-animation {
   0% {
-    -webkit-transform: translate(0, 3.2rem);
-    -ms-transform: translate(0, 3.2rem);
-    transform: translate(0, 3.2rem);
+    -webkit-transform: translate(0, 3rem);
+    -ms-transform: translate(0, 3rem);
+    transform: translate(0, 3rem);
     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
     filter: alpha(opacity=0);
     opacity: 0;
   }
   60% {
-    -webkit-transform: translate(0, 3.2rem);
-    -ms-transform: translate(0, 3.2rem);
-    transform: translate(0, 3.2rem);
+    -webkit-transform: translate(0, 3rem);
+    -ms-transform: translate(0, 3rem);
+    transform: translate(0, 3rem);
     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
     filter: alpha(opacity=0);
     opacity: 0;
@@ -1094,9 +1096,9 @@ a:active {
     opacity: 0;
   }
   68% {
-    -webkit-transform: translate(1.8rem, 3.2rem);
-    -ms-transform: translate(1.8rem, 3.2rem);
-    transform: translate(1.8rem, 3.2rem);
+    -webkit-transform: translate(1.8rem, 3rem);
+    -ms-transform: translate(1.8rem, 3rem);
+    transform: translate(1.8rem, 3rem);
     -ms-filter: none;
     filter: none;
     opacity: 1;
@@ -1104,17 +1106,17 @@ a:active {
 }
 @keyframes splash-design-animation {
   0% {
-    -webkit-transform: translate(0, 3.2rem);
-    -ms-transform: translate(0, 3.2rem);
-    transform: translate(0, 3.2rem);
+    -webkit-transform: translate(0, 3rem);
+    -ms-transform: translate(0, 3rem);
+    transform: translate(0, 3rem);
     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
     filter: alpha(opacity=0);
     opacity: 0;
   }
   60% {
-    -webkit-transform: translate(0, 3.2rem);
-    -ms-transform: translate(0, 3.2rem);
-    transform: translate(0, 3.2rem);
+    -webkit-transform: translate(0, 3rem);
+    -ms-transform: translate(0, 3rem);
+    transform: translate(0, 3rem);
     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
     filter: alpha(opacity=0);
     opacity: 0;
@@ -1125,9 +1127,9 @@ a:active {
     opacity: 0;
   }
   68% {
-    -webkit-transform: translate(1.8rem, 3.2rem);
-    -ms-transform: translate(1.8rem, 3.2rem);
-    transform: translate(1.8rem, 3.2rem);
+    -webkit-transform: translate(1.8rem, 3rem);
+    -ms-transform: translate(1.8rem, 3rem);
+    transform: translate(1.8rem, 3rem);
     -ms-filter: none;
     filter: none;
     opacity: 1;
