@@ -1418,6 +1418,10 @@ a:active {
     -webkit-transition: color 0.5s ease-in-out;
     transition: color 0.5s ease-in-out;
   }
+  .nav__link:visited,
+  .nav__link:active {
+    color: #000;
+  }
   .nav__link--code:hover,
   .nav__link--code.nav__link--active {
     color: #d6ba01;
