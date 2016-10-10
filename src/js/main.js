@@ -9,7 +9,7 @@
 import $ from "jquery";
 
 import languageCycler from "./components/language-cycler";
-import { init as scrollObserverInit, scrollTo } from "./components/scroll-observer";
+import { init as scrollObserverInit, scrollTo, scrolling } from "./components/scroll-observer";
 import { init as navHandlerInit } from "./components/navigation-handler";
 
 let bIsMobile = !!navigator.userAgent.match( /Android|BlackBerry|iPhone|iPad|iPod|Opera Mini|IEMobile/i );
@@ -28,6 +28,8 @@ $( () => {
 
     navHandlerInit();
     scrollObserverInit();
+
+    scrolling();
 
     location.hash && scrollTo( location.hash );
 } );

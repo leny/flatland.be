@@ -10442,6 +10442,8 @@ var bIsMobile = !!navigator.userAgent.match(/Android|BlackBerry|iPhone|iPad|iPod
     (0, _navigationHandler.init)();
     (0, _scrollObserver.init)();
 
+    (0, _scrollObserver.scrolling)();
+
     location.hash && (0, _scrollObserver.scrollTo)(location.hash);
 });
 
